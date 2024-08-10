@@ -1,0 +1,9 @@
+[package]
+name = "ipv4-calculator"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cidr = "0.2.3"
+clap = { version = "4.5.13", features = ["derive"] }
+ipnetwork = "0.20.0"
